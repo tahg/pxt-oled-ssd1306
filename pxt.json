@@ -10,7 +10,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "1306.cpp",
+        "ssd1306.cpp",
         "_locales/zh/SSD1306_OLED-strings.json"
     ],
     "testFiles": [
