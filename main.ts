@@ -66,6 +66,7 @@ namespace OLED {
         }
         // send display buffer in 16 byte chunks
         for (let i = 0; i < screenSize; i += 16) {
+            
             pins.i2cWriteBuffer(chipAdress, data, false)
         }
         charX = xOffset
